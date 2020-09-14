@@ -12,7 +12,7 @@ My purpose is to learn to code corectly and efficiently. I want to learn more an
 
 ## **Skills**
 
-Basics HTML, CSS, JavaScript.
+Basics HTML, CSS, JavaScript, jQuery.
 ### **Code examples**
 
 ```

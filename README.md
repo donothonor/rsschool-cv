@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://donothonor.github.io/rsschool-cv/cv

@@ -1,2 +1,4 @@
 # **Spiridonov Vadim Vladimirovich**
-# **10 February 1996**
+ **Contact : **
+ Phone : +7 (996)  728-91-58
+ VK    : https://vk.com/spleeeeeeen

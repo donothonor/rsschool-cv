@@ -1,2 +1,2 @@
-#**Spiridonov Vadim Vladimirovich**#
-#**10 February 1996**#
+# **Spiridonov Vadim Vladimirovich**
+# **10 February 1996**

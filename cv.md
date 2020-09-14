@@ -55,6 +55,15 @@ Basics HTML, CSS, JavaScript, jQuery.
 </html>
 
 ```
+## **Work experience**
+
+## **Education**
+
+Incomplete higher education(technical), Java-script for beginers.
+
+## **English**
+
+Pre-intermediate
 
 
 

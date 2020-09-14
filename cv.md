@@ -8,4 +8,7 @@
 
 ## **About myself**
 
-My purpose is to learn to code corectly and efficiently.
+My purpose is to learn to code corectly and efficiently. I want to learn more and more, coding become a part of my life.  I aspire to work at EPAM.
+
+## **Skills**
+

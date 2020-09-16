@@ -7,10 +7,87 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <h1>Vadim Spiridonov</h1>
-        <div class="avatar"><img src="/68399570.jpg" alt=""></div>
-    </header>
-           
+    <div class="container">
+        <div class="name">
+            <div class="photo">
+                <img src="/68399570.jpg" alt="" width="300" height="300">
+            </div>
+            <h1>Spiridonov Vadim</h1>
+        </div>
+        <div class="contact">
+            <h2>Contact :</h2>
+            <p>Phone : +7 (996)  728-91-58</p>
+            <p>VK    : <a href="https://vk.com/spleeeeeeen">vk.com/spleeeeeeen</a></p>
+        </div>
+        <div class="about">
+            <h2>About myself</h2>
+            <p>My purpose is to learn to code corectly and efficiently. 
+            I want to learn more and more, coding become a part of my life.  
+            I aspire to work at EPAM.</p>
+        </div>
+        <div class="skills"> 
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+            </ul>
+        </div>
+        <div class="exemples">    
+            <h2>Code examples</h2>
+                <div class="ex">
+                    <div><span>&lt;!DOCTYPE&nbsp;html&gt;</span></div>
+                    <div><span>&lt;html&nbsp;lang="en"&gt;</span></div>
+                    <div><span>&lt;head&gt;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta&nbsp;charset="UTF-8"&gt;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta&nbsp;name="viewport"&nbsp;content="width=device-width,&nbsp;initial-scale=1.0"&gt;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Гонки&lt;/title&gt;</span></div>
+                    <div><span>&lt;/head&gt;</span></div>
+                    <div><span>&lt;body&gt;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&nbsp;src="https://code.jquery.com/jquery-2.1.0.js"&gt;&lt;/script&gt;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&gt;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;Car&nbsp;=&nbsp;function&nbsp;(x,&nbsp;y)&nbsp;{</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.x&nbsp;=&nbsp;x;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.y&nbsp;=&nbsp;y;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</span></div>
+                    <br />
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;drawCar&nbsp;=&nbsp;function&nbsp;(car)&nbsp;{</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;carHtml&nbsp;=&nbsp;'&lt;img&nbsp;src="/100.png"&nbsp;alt=""&gt;';</span></div>
+                    <br />
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;carElement&nbsp;=&nbsp;$(carHtml);</span></div>
+                    <br />
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carElement.css({</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position:&nbsp;"absolute",</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;left:&nbsp;car.x,</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;top:&nbsp;car.y</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$("body").append(carElement);</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;tesla&nbsp;=&nbsp;new&nbsp;Car(20,&nbsp;20)</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;nissan&nbsp;=&nbsp;new&nbsp;Car(100,200)</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawCar(tesla);</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawCar(nissan);</span></div>
+                    <br />
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/script&gt;</span></div>
+                    <div><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+                    <div><span>&lt;/body&gt;</span></div>
+                    <div><span>&lt;/html&gt;</span></div>
+                    </div>
+            </div>
+            <div class="wexp">        
+                <h2>Work experience</h2>
+                <p>* * * * * * * * * </p>
+        </div>
+        <div class="education">    
+            <h2>Education</h2>
+            <p>Incomplete higher education(technical), Java-script for beginers.</p>
+        </div>
+        <div class="english">       
+            <h2>English</h2>
+            <p>Pre-intermediate</p>
+        </div>
+    </div>             
 </body>
 </html>

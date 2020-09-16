@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    box-shadow: 5px 0 rgba(182, 235, 228, 0.582);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 35px;
+}
+p, li{
+    font-size: 28px;
+}
+img {
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+.container {
+    
+    margin: 0 auto;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,37,0.44861694677871145) 0%, rgba(0,212,255,1) 100%);
+    padding: 0 0 25px 25px;
+}
+.ex {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-style: italic;
+}
+.photo {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
